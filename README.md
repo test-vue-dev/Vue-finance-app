@@ -1,4 +1,4 @@
-# new-vue-crm
+# Vue-Finance-App
 
 ## Project setup
 ```
