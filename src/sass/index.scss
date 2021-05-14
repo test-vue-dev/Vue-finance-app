@@ -1,0 +1,37 @@
+
+$nav_color: #0a7e14;
+
+.invalid_msg_class {
+  margin-left: 0 !important;
+  color: red !important;
+}
+
+.page_title_app {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 2rem;
+}
+
+.page_title_app .text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .page_title_app {
+    padding: 0 1rem;
+  }
+  .card-content{
+    padding: 0.4rem !important;
+  }
+  .app-page.full {
+    padding-right: 0;
+  }
+  .planning{
+    padding: 0 0.5rem;
+  }
+  .sidenav{
+    width: 150px !important;
+  }
+
+}
